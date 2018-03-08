@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-12-23 16:00+0100\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-01-12 21:30+0000\n"
+"Last-Translator: storeuser <kiestesting@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru-RU\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. translators: 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "One thought on &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[2] ""
+
+#: footer.php:18
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:20
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:25
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Posted in %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+#, php-format
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:62
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#. Theme Name of the plugin/theme
+msgid "_s"
+msgstr "_s"
+
+#. Theme URI of the plugin/theme
+msgid "http://underscores.me/"
+msgstr "http://underscores.me/"
+
+#. Description of the plugin/theme
+msgid ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
+msgstr ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Авто"
+
+#. Author URI of the plugin/theme
+msgid "http://automattic.com/"
+msgstr "http://automattic.com/"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой, страница не найдена."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "Кажется, здесь ничего нет. Может из списка ниже?"
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr "Часто используемые категории"
+
+#. translators: %1$s: smiley
+#: 404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Посмотрите в архиве за месяц. %1$s"
+
+#: comments.php:50 comments.php:71
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:53 comments.php:74
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+#: comments.php:54 comments.php:75
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr "Комментарии недоступны."
+
+#: functions.php:47
+msgid "Primary"
+msgstr "Главное"
+
+#: functions.php:93
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:95
+msgid "Add widgets here."
+msgstr "Добавьте виджет."
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "К контенту"
+
+#: header.php:44
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "%s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Оставить комментарий<span class=\"screen-reader-text\"> on %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89 template-parts/content-page.php:35
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Редактировать <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска:  %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать первый пост? <a href=\"%1$s\">Начните здесь</a>."
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "К сожалению ничего не найдено по Вашему запросу."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Кажется, мы не можем найти то, что Вы ищите."
+
+#: template-parts/content-page.php:22 template-parts/content.php:45
+msgid "Pages:"
+msgstr "Страницы:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:34
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Продолжить<span class=\"screen-reader-text\"> \"%s\"</span>"
